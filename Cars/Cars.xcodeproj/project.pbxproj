@@ -11,6 +11,8 @@
 		CD64D22D2A2E409200D1DD77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D22C2A2E409200D1DD77 /* ContentView.swift */; };
 		CD64D22F2A2E409300D1DD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD64D22E2A2E409300D1DD77 /* Assets.xcassets */; };
 		CD64D2322A2E409300D1DD77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD64D2312A2E409300D1DD77 /* Preview Assets.xcassets */; };
+		CD64D23D2A2E447800D1DD77 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D23C2A2E447800D1DD77 /* Car.swift */; };
+		CD64D23F2A2E465000D1DD77 /* CarsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D23E2A2E465000D1DD77 /* CarsData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		CD64D22C2A2E409200D1DD77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CD64D22E2A2E409300D1DD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD64D2312A2E409300D1DD77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD64D23C2A2E447800D1DD77 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		CD64D23E2A2E465000D1DD77 /* CarsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 		CD64D23A2A2E435D00D1DD77 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				CD64D23E2A2E465000D1DD77 /* CarsData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 		CD64D23B2A2E436B00D1DD77 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CD64D23C2A2E447800D1DD77 /* Car.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD64D23F2A2E465000D1DD77 /* CarsData.swift in Sources */,
 				CD64D22D2A2E409200D1DD77 /* ContentView.swift in Sources */,
 				CD64D22B2A2E409200D1DD77 /* CarsApp.swift in Sources */,
+				CD64D23D2A2E447800D1DD77 /* Car.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
