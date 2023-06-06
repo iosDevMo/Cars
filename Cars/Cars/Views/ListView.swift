@@ -12,12 +12,18 @@ struct ListView: View {
     
     //: Body
     var body: some View {
-        List{
-            ForEach(carsData) { item in
-                CellView(car: item)
-                    .padding(.vertical, 4)
-            }
-        }
+        NavigationView {
+            List{
+                ForEach(carsData) { item in
+                    NavigationLink(destination:DetailedView(car: item)){
+                        CellView(car: item)
+                            .padding(.vertical, 4)
+                    }//: Navigation link
+                }
+            }//: List
+            .navigationTitle("Cars")
+            .navigationBarTitleDisplayMode(.large)
+        }//:NavigationView
     }
 }
 
