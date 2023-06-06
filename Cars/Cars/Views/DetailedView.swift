@@ -10,7 +10,7 @@ import SwiftUI
 struct DetailedView: View {
     //: Properties
     var car : Car
-    
+    @State var isAnimating : Bool = false
     //: Body
     var body: some View {
         ScrollView(.vertical, showsIndicators: true){
@@ -19,8 +19,13 @@ struct DetailedView: View {
                 Image(car.image)
                     .resizable()
                     .scaledToFit()
+                    .scaleEffect(isAnimating ? 1 : 0.6)
+                    .animation(.linear(duration: 0.5), value: isAnimating)
                     .frame(height: 440, alignment: .center)
                     .background(LinearGradient(gradient: Gradient(colors: car.gradientColors), startPoint: .topLeading, endPoint: .bottomTrailing))
+                    .onAppear{
+                        isAnimating = true
+                    }
                 VStack(alignment: .leading, spacing: 15){
                     //car title
                     Text(car.title)
@@ -34,7 +39,7 @@ struct DetailedView: View {
                         .lineLimit(3)
                     
                     //: model
-                    
+                    ModelView(car: car)
                     
                     //:description
                     Text("Learn more about \(car.title)")
@@ -47,11 +52,19 @@ struct DetailedView: View {
                         .multilineTextAlignment(.leading)
                     
                     //: link
-                    
+                    GroupBox(){
+                        HStack{
+                            Link("Source : wikipedia", destination: URL(string: "https:/wikipedia.com")!)
+                            Spacer()
+                            Image(systemName: "arrow.up.right.square")
+                        }//:Hstack
+                    }//: GroupBox
+                    .padding(.bottom, 40)
                 }//:Vstack
                 .padding(.horizontal, 15)
             }//:Vstack main end
         }//: Scroll View
+        .ignoresSafeArea(.all)
         
         
     }
@@ -59,6 +72,6 @@ struct DetailedView: View {
 
 struct DetailedView_Previews: PreviewProvider {
     static var previews: some View {
-        DetailedView(car: carsData[7])
+        DetailedView(car: carsData[5])
     }
 }
