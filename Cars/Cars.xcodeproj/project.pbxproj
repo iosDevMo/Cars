@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CD64D22B2A2E409200D1DD77 /* CarsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D22A2A2E409200D1DD77 /* CarsApp.swift */; };
-		CD64D22D2A2E409200D1DD77 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D22C2A2E409200D1DD77 /* ContentView.swift */; };
+		CD64D22D2A2E409200D1DD77 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D22C2A2E409200D1DD77 /* OnboardingView.swift */; };
 		CD64D22F2A2E409300D1DD77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD64D22E2A2E409300D1DD77 /* Assets.xcassets */; };
 		CD64D2322A2E409300D1DD77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD64D2312A2E409300D1DD77 /* Preview Assets.xcassets */; };
 		CD64D23D2A2E447800D1DD77 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D23C2A2E447800D1DD77 /* Car.swift */; };
@@ -19,7 +19,7 @@
 /* Begin PBXFileReference section */
 		CD64D2272A2E409200D1DD77 /* Cars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD64D22A2A2E409200D1DD77 /* CarsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsApp.swift; sourceTree = "<group>"; };
-		CD64D22C2A2E409200D1DD77 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD64D22C2A2E409200D1DD77 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		CD64D22E2A2E409300D1DD77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD64D2312A2E409300D1DD77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD64D23C2A2E447800D1DD77 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				CD64D22A2A2E409200D1DD77 /* CarsApp.swift */,
-				CD64D22C2A2E409200D1DD77 /* ContentView.swift */,
+				CD64D22C2A2E409200D1DD77 /* OnboardingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,7 +179,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD64D23F2A2E465000D1DD77 /* CarsData.swift in Sources */,
-				CD64D22D2A2E409200D1DD77 /* ContentView.swift in Sources */,
+				CD64D22D2A2E409200D1DD77 /* OnboardingView.swift in Sources */,
 				CD64D22B2A2E409200D1DD77 /* CarsApp.swift in Sources */,
 				CD64D23D2A2E447800D1DD77 /* Car.swift in Sources */,
 				CD64D2412A2F402A00D1DD77 /* CardView.swift in Sources */,
