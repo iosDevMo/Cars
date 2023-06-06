@@ -13,6 +13,7 @@
 		CD64D2322A2E409300D1DD77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD64D2312A2E409300D1DD77 /* Preview Assets.xcassets */; };
 		CD64D23D2A2E447800D1DD77 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D23C2A2E447800D1DD77 /* Car.swift */; };
 		CD64D23F2A2E465000D1DD77 /* CarsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D23E2A2E465000D1DD77 /* CarsData.swift */; };
+		CD64D2412A2F402A00D1DD77 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D2402A2F402A00D1DD77 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		CD64D2312A2E409300D1DD77 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD64D23C2A2E447800D1DD77 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		CD64D23E2A2E465000D1DD77 /* CarsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsData.swift; sourceTree = "<group>"; };
+		CD64D2402A2F402A00D1DD77 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		CD64D2392A2E434500D1DD77 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				CD64D2402A2F402A00D1DD77 /* CardView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				CD64D22D2A2E409200D1DD77 /* ContentView.swift in Sources */,
 				CD64D22B2A2E409200D1DD77 /* CarsApp.swift in Sources */,
 				CD64D23D2A2E447800D1DD77 /* Car.swift in Sources */,
+				CD64D2412A2F402A00D1DD77 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
