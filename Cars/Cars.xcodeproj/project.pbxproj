@@ -14,6 +14,8 @@
 		CD64D23D2A2E447800D1DD77 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D23C2A2E447800D1DD77 /* Car.swift */; };
 		CD64D23F2A2E465000D1DD77 /* CarsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D23E2A2E465000D1DD77 /* CarsData.swift */; };
 		CD64D2412A2F402A00D1DD77 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D2402A2F402A00D1DD77 /* CardView.swift */; };
+		CD64D2432A2F60E300D1DD77 /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D2422A2F60E300D1DD77 /* CellView.swift */; };
+		CD64D2452A2F666800D1DD77 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D2442A2F666800D1DD77 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		CD64D23C2A2E447800D1DD77 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		CD64D23E2A2E465000D1DD77 /* CarsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsData.swift; sourceTree = "<group>"; };
 		CD64D2402A2F402A00D1DD77 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CD64D2422A2F60E300D1DD77 /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		CD64D2442A2F666800D1DD77 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 			children = (
 				CD64D22A2A2E409200D1DD77 /* CarsApp.swift */,
 				CD64D22C2A2E409200D1DD77 /* OnboardingView.swift */,
+				CD64D2442A2F666800D1DD77 /* ListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -88,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				CD64D2402A2F402A00D1DD77 /* CardView.swift */,
+				CD64D2422A2F60E300D1DD77 /* CellView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -180,6 +186,8 @@
 			files = (
 				CD64D23F2A2E465000D1DD77 /* CarsData.swift in Sources */,
 				CD64D22D2A2E409200D1DD77 /* OnboardingView.swift in Sources */,
+				CD64D2432A2F60E300D1DD77 /* CellView.swift in Sources */,
+				CD64D2452A2F666800D1DD77 /* ListView.swift in Sources */,
 				CD64D22B2A2E409200D1DD77 /* CarsApp.swift in Sources */,
 				CD64D23D2A2E447800D1DD77 /* Car.swift in Sources */,
 				CD64D2412A2F402A00D1DD77 /* CardView.swift in Sources */,
