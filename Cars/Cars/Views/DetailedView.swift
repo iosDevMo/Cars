@@ -21,7 +21,7 @@ struct DetailedView: View {
                     .scaledToFit()
                     .scaleEffect(isAnimating ? 1 : 0.6)
                     .animation(.linear(duration: 0.5), value: isAnimating)
-                    .frame(height: 440, alignment: .center)
+                    .frame(minWidth: 0, idealWidth: .infinity, maxWidth: .infinity, minHeight: 440, idealHeight: 440, maxHeight: .infinity, alignment: .center)
                     .background(LinearGradient(gradient: Gradient(colors: car.gradientColors), startPoint: .topLeading, endPoint: .bottomTrailing))
                     .onAppear{
                         isAnimating = true
@@ -62,7 +62,9 @@ struct DetailedView: View {
                     .padding(.bottom, 40)
                 }//:Vstack
                 .padding(.horizontal, 15)
+                .frame(maxWidth: 620)
             }//:Vstack main end
+            
         }//: Scroll View
         .ignoresSafeArea(.all)
         

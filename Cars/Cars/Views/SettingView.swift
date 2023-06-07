@@ -10,6 +10,7 @@ import SwiftUI
 struct SettingView: View {
     //: Properties
     @AppStorage("isOnboarding") var isOnboarding : Bool = true
+    @Environment(\.presentationMode) var presentationMode
     //:Body
     var body: some View {
         NavigationView {
@@ -35,8 +36,15 @@ struct SettingView: View {
                 }//:GroupBox
                 //: CheckBox
                 Toggle(isOn: $isOnboarding) {
-                    Text("Restart")
-                        .font(.title)
+                    if isOnboarding {
+                        Text("Restarted".uppercased())
+                            .font(.title)
+                            .foregroundColor(.green)
+                    }else{
+                        Text("Restart".uppercased())
+                            .font(.title)
+                            .foregroundColor(.gray)
+                    }
                 }
                 .padding()
                 .background(.ultraThickMaterial)
@@ -45,7 +53,7 @@ struct SettingView: View {
             }//: Vstack main
             .navigationTitle("Setting")
             .navigationBarItems(trailing: Button(action: {
-                //action
+                presentationMode.wrappedValue.dismiss()
             }, label: {
                 Image(systemName: "xmark.circle")
                     .font(.title2)

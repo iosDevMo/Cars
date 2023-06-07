@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ListView: View {
     //: Properties
-    
+    @State var isSettingViewPresented : Bool = false
     //: Body
     var body: some View {
         NavigationView {
@@ -24,11 +24,15 @@ struct ListView: View {
             .navigationTitle("Cars")
             .navigationBarTitleDisplayMode(.large)
             .navigationBarItems(trailing: Button(action: {
-                // action
+                isSettingViewPresented = true
             }, label: {
                 Image(systemName: "slider.horizontal.3")
             }))
+            .sheet(isPresented: $isSettingViewPresented) {
+                SettingView()
+            }
         }//:NavigationView
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
