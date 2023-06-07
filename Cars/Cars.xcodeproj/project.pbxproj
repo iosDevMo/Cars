@@ -18,6 +18,7 @@
 		CD64D2452A2F666800D1DD77 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D2442A2F666800D1DD77 /* ListView.swift */; };
 		CD64D2472A2F683400D1DD77 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D2462A2F683400D1DD77 /* DetailedView.swift */; };
 		CD64D2492A2F815400D1DD77 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D2482A2F815400D1DD77 /* ModelView.swift */; };
+		CD64D24B2A3092D700D1DD77 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD64D24A2A3092D700D1DD77 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		CD64D2442A2F666800D1DD77 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		CD64D2462A2F683400D1DD77 /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
 		CD64D2482A2F815400D1DD77 /* ModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelView.swift; sourceTree = "<group>"; };
+		CD64D24A2A3092D700D1DD77 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				CD64D22C2A2E409200D1DD77 /* OnboardingView.swift */,
 				CD64D2442A2F666800D1DD77 /* ListView.swift */,
 				CD64D2462A2F683400D1DD77 /* DetailedView.swift */,
+				CD64D24A2A3092D700D1DD77 /* SettingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD64D23F2A2E465000D1DD77 /* CarsData.swift in Sources */,
+				CD64D24B2A3092D700D1DD77 /* SettingView.swift in Sources */,
 				CD64D22D2A2E409200D1DD77 /* OnboardingView.swift in Sources */,
 				CD64D2432A2F60E300D1DD77 /* CellView.swift in Sources */,
 				CD64D2492A2F815400D1DD77 /* ModelView.swift in Sources */,

@@ -11,6 +11,7 @@ struct CardView: View {
     //: Properties
     var car : Car
     @State var isAnimating : Bool = false
+    @AppStorage("isOnboarding") var isOnboarding : Bool = true
     //: Body
     
     var body: some View {
@@ -35,7 +36,7 @@ struct CardView: View {
                 .padding()
             
             Button {
-                // action
+                isOnboarding = false
             } label: {
                 Image(systemName: "arrow.right.circle")
                 Text("start")

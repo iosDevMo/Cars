@@ -23,6 +23,11 @@ struct ListView: View {
             }//: List
             .navigationTitle("Cars")
             .navigationBarTitleDisplayMode(.large)
+            .navigationBarItems(trailing: Button(action: {
+                // action
+            }, label: {
+                Image(systemName: "slider.horizontal.3")
+            }))
         }//:NavigationView
     }
 }
